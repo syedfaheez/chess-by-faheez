@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+.container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+.topbar { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1rem; }
+.grid { display:grid; grid-template-columns: 1fr 380px; gap:1rem; }
+.card { border-radius: 14px; padding: 1rem; box-shadow: 0 1px 6px rgba(0,0,0,0.1); background: Canvas; }
+button { padding: .5rem .75rem; border-radius: 10px; border: 1px solid #8883; cursor: pointer; }
+button:disabled{ opacity: .6; cursor: not-allowed; }
+.status { font-weight: 600; }
+@media (max-width: 1000px) { .grid { grid-template-columns: 1fr; } }

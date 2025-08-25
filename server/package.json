@@ -1,0 +1,23 @@
+{
+  "name": "chess-by-faheez-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -b",
+    "lint": "echo \"(add eslint later)\""
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "socket.io": "^4.7.5",
+    "chess.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
