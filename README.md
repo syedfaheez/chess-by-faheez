@@ -1,4 +1,4 @@
-# Chess by Faheez ♟️ (fixed build)
+# Chess by Faheez ♟️ 
 
 A modern, full‑stack chess app built with React + TypeScript (frontend) and Fastify + Socket.IO (backend).
 
